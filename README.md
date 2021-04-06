@@ -9,6 +9,9 @@
 
 ## Installing
 
+```shell
+$ composer require jackven/amap -vvv
+```
 
 ## Usage
 
