@@ -1,0 +1,19 @@
+{
+    "name": "jackven\/amap",
+    "description": "\uD83D\uDCE6 It may be the best SDK for developing Amap App.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "jackven",
+            "email": "jackven@qq.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "VenAmap\\": "src/"
+        }
+    }
+}
