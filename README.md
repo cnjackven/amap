@@ -2,18 +2,18 @@
 
 <p align="center">📦 It may be the best SDK for developing Amap App.</p>
 
-## Requirement
+## 安装要求
 
 1. PHP >= 7.2
 2. **[Composer](https://getcomposer.org/)**
 
-## Installing
+## 安装
 
 ```shell
 $ composer require jackven/amap -vvv
 ```
 
-## Usage
+## 使用
 
 基本使用
 
@@ -49,6 +49,18 @@ AmapClient::getInstance($config);
 $respone = (new ReGeo())->setLocation('116.481488,39.990464')->send();
 
 ```
+
+## 目前支持的amap接口
+
+-  Geo          地址转换为经纬度
+-  ReGeo        经纬度逆转为地址
+-  IP           IP定位
+-  Walking      步行线路规划
+-  Distance     距离计算
+-  Convert      经纬度坐标转换
+-  WeatherInfo  天气信息查询
+-  District     行政区域字典获取
+-  PoiText      关键字词POI检索
 
 ## Contributing
 
