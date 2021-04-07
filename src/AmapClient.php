@@ -43,7 +43,8 @@ class AmapClient implements FactoryInterface
         'district'              => 'District',
         'poitext'               => 'PoiText',
         'transitintegrated'     => 'TransitIntegrated',
-        'bicycling'             => 'Bicycling'
+        'bicycling'             => 'Bicycling',
+        'placearound'           => 'PlaceAround'
     ];
 
     private function __construct(array $config = []){

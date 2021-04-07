@@ -65,6 +65,7 @@ $respone = (new ReGeo())->setLocation('116.481488,39.990464')->send();
 -  WeatherInfo  天气信息查询
 -  District     行政区域字典获取
 -  PoiText      关键字词POI检索
+-  PlaceAround  POI周边检索（<a href="https://lbs.amap.com/api/webservice/download" target="_blank">POI分类编码</a>）
 
 ## Contributing
 
