@@ -59,6 +59,7 @@ $respone = (new ReGeo())->setLocation('116.481488,39.990464')->send();
 -  IP           IP定位
 -  Walking      步行线路规划
 -  TransitIntegrated  公交路径规划
+-  Bicycling    骑行路径规划
 -  Distance     距离计算
 -  Convert      经纬度坐标转换
 -  WeatherInfo  天气信息查询

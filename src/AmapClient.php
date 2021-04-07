@@ -42,7 +42,8 @@ class AmapClient implements FactoryInterface
         'weatherinfo'           => 'WeatherInfo',
         'district'              => 'District',
         'poitext'               => 'PoiText',
-        'transitintegrated'     => 'TransitIntegrated'
+        'transitintegrated'     => 'TransitIntegrated',
+        'bicycling'             => 'Bicycling'
     ];
 
     private function __construct(array $config = []){
