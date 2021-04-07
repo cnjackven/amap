@@ -33,15 +33,16 @@ class AmapClient implements FactoryInterface
      * @var string[]
      */
     protected $defaultDriver = [
-        'geo'           => 'Geo',
-        'ip'            => 'IP',
-        'regeo'         => 'ReGeo',
-        'walking'       => 'Walking',
-        'distance'      => 'Distance',
-        'convert'       => 'Convert',
-        'weatherinfo'   => 'WeatherInfo',
-        'district'      => 'District',
-        'poitext'       => 'PoiText',
+        'geo'                   => 'Geo',
+        'ip'                    => 'IP',
+        'regeo'                 => 'ReGeo',
+        'walking'               => 'Walking',
+        'distance'              => 'Distance',
+        'convert'               => 'Convert',
+        'weatherinfo'           => 'WeatherInfo',
+        'district'              => 'District',
+        'poitext'               => 'PoiText',
+        'transitintegrated'     => 'TransitIntegrated'
     ];
 
     private function __construct(array $config = []){
